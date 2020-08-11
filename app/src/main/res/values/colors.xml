@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#22d94c</color>
+    <color name="colorPrimaryVariant">#00ae39</color>
+    <color name="colorSecondary">#3acef1</color>
+    <color name="statusBarColor">#969696</color>
+    <color name="statusBarColorV23">#ffffff</color>
+    <color name="colorOnPrimary">#ffffff</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="colorBackground">#ffffff</color>
+    <color name="colorOnBackground">#000000</color>
+    <color name="colorSurface">#ffffff</color>
+    <color name="colorOnSurface">#000000</color>
+    <color name="navigationBarColorV27">#ffffff</color>
+
+</resources>
