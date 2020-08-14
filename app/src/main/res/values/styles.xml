@@ -19,4 +19,10 @@
         <item name="android:statusBarColor">@color/statusBarColor</item>
     </style>
 
+    <style name="SplashScreenTheme" parent="BaseAppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
 </resources>
