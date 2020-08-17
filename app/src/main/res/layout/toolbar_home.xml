@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.rezakardoost.bourshub.utils.CollapsibleToolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="112dp"
+    android:minHeight="56dp"
+    app:layoutDescription="@xml/toolbar_home_scene"
+    app:layout_scrollFlags="scroll|snap|exitUntilCollapsed">
+
+
+    <ImageButton
+        android:id="@+id/hamburgerBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_menu_24px" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/homeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:fontFamily="@font/lalezar"
+        android:text="@string/app_name_fa"
+        android:textSize="25sp"
+        android:textColor="?android:attr/textColorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/motto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_motto"
+        android:textColor="?android:attr/textColorSecondary"
+        app:layout_constraintEnd_toEndOf="@+id/homeTitle"
+        app:layout_constraintStart_toStartOf="@+id/homeTitle"
+        app:layout_constraintTop_toBottomOf="@+id/homeTitle" />
+
+
+</com.github.rezakardoost.bourshub.utils.CollapsibleToolbar>

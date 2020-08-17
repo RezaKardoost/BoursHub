@@ -12,6 +12,8 @@
         <item name="colorSurface">@color/colorSurface</item>
         <item name="colorOnSurface">@color/colorOnSurface</item>
 
+        <item name="fontFamily">@font/vazir_fd</item>
+
 
     </style>
 
