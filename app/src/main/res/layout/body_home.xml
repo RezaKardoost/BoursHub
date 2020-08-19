@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.github.rezakardoost.bourshub.utils.HomeCard
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="10dp"
+            app:cardTitle="اطلاعیه های عرضه اولیه"
+            app:cardSubtitle="هیچ عرضه اولیه ای را فراموش نکن"
+            app:cardSrc="@drawable/ic_ipo"
+            style="@style/HomeContentCard"/>
+
+        <com.github.rezakardoost.bourshub.utils.HomeCard
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardTitle="اصطلاحات بورسی"
+            app:cardSubtitle="با اصطلاحات رایج بورس آشنا شو"
+            app:cardSrc="@drawable/ic_word"
+            style="@style/HomeContentCard"/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

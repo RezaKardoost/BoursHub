@@ -13,4 +13,6 @@
     <color name="colorOnSurface">#000000</color>
     <color name="navigationBarColorV27">#ffffff</color>
 
+    <color name="GrayStrokeColor">#AAA8A8</color>
+
 </resources>

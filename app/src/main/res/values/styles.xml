@@ -12,7 +12,7 @@
         <item name="colorSurface">@color/colorSurface</item>
         <item name="colorOnSurface">@color/colorOnSurface</item>
 
-        <item name="fontFamily">@font/vazir_fd</item>
+        <item name="fontFamily">@font/vazir</item>
 
 
     </style>
@@ -25,6 +25,14 @@
         <item name="android:windowTranslucentStatus">true</item>
         <item name="android:windowTranslucentNavigation">true</item>
         <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+
+    <style name="HomeContentCard">
+        <item name="cardElevation">2.5dp</item>
+        <item name="cardBackgroundColor">?attr/colorSurface</item>
+        <item name="strokeColor">@color/GrayStrokeColor</item>
+        <item name="strokeWidth">0.5dp</item>
     </style>
 
 </resources>
